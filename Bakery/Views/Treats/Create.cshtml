@@ -17,6 +17,9 @@
     <label>Quantity: </label>
     @Html.TextBoxFor(model => model.TreatQty, new {type="number", required="required", @class="form-control"})
     <br>
+    <label>Flavor: </label>
+    @Html.DropDownList("FlavorId", null, new {required="required", @class="form-control"})
+    <br>
     <input type="submit" value="Save">
 }
 <hr />
