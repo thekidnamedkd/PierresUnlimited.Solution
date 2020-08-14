@@ -1,0 +1,24 @@
+@{
+  Layout = "_Layout";
+}
+
+@model Bakery.Models.Treat
+
+<h2>NEW TREAT</h2>
+<hr />
+@using (Html.BeginForm())
+{
+    <label>Name: </label>
+    @Html.TextBoxFor(model => model.TreatName, new {type="text", required="required", @class="form-control"})
+    <br>
+    <label>Description </label>
+    @Html.TextBoxFor(model => model.TreatDesc, new {type="text", required="required", @class="form-control"})
+    <br>
+    <label>Quantity </label>
+    @Html.TextBoxFor(model => model.TreatQty, new {type="number", required="required", @class="form-control"})
+    <br>
+    <input type="submit" value="Save">
+}
+<hr />
+<p>@Html.ActionLink("Return to all treats", "Index")</p>
+<p>@Html.ActionLink("Return home", "Index", "Home")</p>
