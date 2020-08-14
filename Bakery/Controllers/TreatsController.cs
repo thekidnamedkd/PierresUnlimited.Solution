@@ -1,26 +1,19 @@
-using Bakery.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
-using Microsoft.EntityFrameworkCore;
-using Microsoft.AspNetCore.Mvc.Rendering;
 using System.Linq;
-using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Identity;
-using System.Threading.Tasks;
-using System.Security.Claims;
+using Microsoft.AspNetCore.Mvc.Rendering;
+using Microsoft.EntityFrameworkCore;
+using Bakery.Models;
 
 namespace Bakery.Controllers
 {
   public class TreatsController : Controller
   {
     private readonly BakeryContext _db;
-    private readonly UserManager<User> _userManager;
-    public TreatsController(BakeryContext db, UserManager<User> userManager)
+    public TreatsController(BakeryContext db)
     {
-      _userManager = userManager;
       _db = db;
     }
-
     public ActionResult Index()
     {
       List<Treat> treats = _db.Treats.ToList();
@@ -31,13 +24,9 @@ namespace Bakery.Controllers
       ViewBag.FlavorId = new SelectList(_db.Flavors, "FlavorId", "FlavorName");
       return View();
     }
-
     [HttpPost]
-    public async Task<ActionResult> Create(Treat treat, int FlavorId)
+    public ActionResult Create(Treat treat, int FlavorId)
     {
-      var userId = this.User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
-      var currentUser = await _userManager.FindByIdAsync(userId);
-      treat.User = currentUser;
       _db.Treats.Add(treat);
       if (FlavorId != 0)
       {
@@ -46,35 +35,23 @@ namespace Bakery.Controllers
       _db.SaveChanges();
       return RedirectToAction("Index");
     }
-
     public ActionResult Details (int id)
     {
       var thisTreat = _db.Treats
         .Include(treat => treat.Flavors)
         .ThenInclude(join => join.Flavor)
-        // .Include(treat => treat.Ingredients)
-        // .ThenInclude(join => join.Ingredient)
         .FirstOrDefault(treat => treat.TreatId == id);
-      var userId = this.User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
-      if (userId != null)
-      {
-        ViewBag.IsCurrentUser = userId;
-      }
-      return View(thisTreat);
+        return View(thisTreat);
     }
-    public async Task<ActionResult> Delete(int id)
+    public ActionResult Delete(int id)
     {
-      var userId = this.User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
-      var currentUser = await _userManager.FindByIdAsync(userId);
-
-      Treat thisTreat = _db.Treats.Where(entry => entry.User.Id == currentUser.Id).FirstOrDefault(treats => treats.TreatId == id);
+      Treat thisTreat = _db.Treats.FirstOrDefault(treats => treats.TreatId == id);
       if (thisTreat == null)
       {
         return RedirectToAction("Details", new { id = id });
       }
       return View(thisTreat);
     }
-
     [HttpPost, ActionName("Delete")]
     public ActionResult DeleteConfirmed(int id)
     {
