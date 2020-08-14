@@ -2,7 +2,6 @@ using System.Collections.Generic;
 
 namespace Bakery.Models
 {
-
   public class Treat
   {
     public Treat()
