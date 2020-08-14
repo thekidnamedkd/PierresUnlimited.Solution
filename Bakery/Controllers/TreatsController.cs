@@ -11,7 +11,7 @@ using System.Security.Claims;
 
 namespace Bakery.Controllers
 {
-  public class TreatsController : Controllers
+  public class TreatsController : Controller
   {
     
   }

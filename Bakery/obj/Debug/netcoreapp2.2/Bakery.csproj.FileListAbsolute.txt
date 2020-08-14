@@ -4,3 +4,13 @@
 /Users/thekidnamedkd/Desktop/PierresLogin.Solution/Bakery/obj/Debug/netcoreapp2.2/Bakery.csproj.CoreCompileInputs.cache
 /Users/thekidnamedkd/Desktop/PierresLogin.Solution/Bakery/obj/Debug/netcoreapp2.2/Bakery.RazorAssemblyInfo.cache
 /Users/thekidnamedkd/Desktop/PierresLogin.Solution/Bakery/obj/Debug/netcoreapp2.2/Bakery.RazorAssemblyInfo.cs
+/Users/thekidnamedkd/Desktop/PierresLogin.Solution/Bakery/bin/Debug/netcoreapp2.2/appsettings.json
+/Users/thekidnamedkd/Desktop/PierresLogin.Solution/Bakery/bin/Debug/netcoreapp2.2/Bakery.deps.json
+/Users/thekidnamedkd/Desktop/PierresLogin.Solution/Bakery/bin/Debug/netcoreapp2.2/Bakery.runtimeconfig.json
+/Users/thekidnamedkd/Desktop/PierresLogin.Solution/Bakery/bin/Debug/netcoreapp2.2/Bakery.runtimeconfig.dev.json
+/Users/thekidnamedkd/Desktop/PierresLogin.Solution/Bakery/bin/Debug/netcoreapp2.2/Bakery.dll
+/Users/thekidnamedkd/Desktop/PierresLogin.Solution/Bakery/bin/Debug/netcoreapp2.2/Bakery.pdb
+/Users/thekidnamedkd/Desktop/PierresLogin.Solution/Bakery/obj/Debug/netcoreapp2.2/Bakery.RazorTargetAssemblyInfo.cache
+/Users/thekidnamedkd/Desktop/PierresLogin.Solution/Bakery/obj/Debug/netcoreapp2.2/Bakery.dll
+/Users/thekidnamedkd/Desktop/PierresLogin.Solution/Bakery/obj/Debug/netcoreapp2.2/Bakery.pdb
+/Users/thekidnamedkd/Desktop/PierresLogin.Solution/Bakery/obj/Debug/netcoreapp2.2/Bakery.genruntimeconfig.cache
