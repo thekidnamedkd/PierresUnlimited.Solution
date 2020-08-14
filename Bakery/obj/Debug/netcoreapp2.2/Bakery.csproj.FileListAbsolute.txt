@@ -14,3 +14,17 @@
 /Users/thekidnamedkd/Desktop/PierresLogin.Solution/Bakery/obj/Debug/netcoreapp2.2/Bakery.dll
 /Users/thekidnamedkd/Desktop/PierresLogin.Solution/Bakery/obj/Debug/netcoreapp2.2/Bakery.pdb
 /Users/thekidnamedkd/Desktop/PierresLogin.Solution/Bakery/obj/Debug/netcoreapp2.2/Bakery.genruntimeconfig.cache
+/Users/thekidnamedkd/Desktop/PierresLogin.Solution/Bakery/bin/Debug/netcoreapp2.2/Bakery.Views.dll
+/Users/thekidnamedkd/Desktop/PierresLogin.Solution/Bakery/bin/Debug/netcoreapp2.2/Bakery.Views.pdb
+/Users/thekidnamedkd/Desktop/PierresLogin.Solution/Bakery/obj/Debug/netcoreapp2.2/Bakery.TagHelpers.input.cache
+/Users/thekidnamedkd/Desktop/PierresLogin.Solution/Bakery/obj/Debug/netcoreapp2.2/Bakery.TagHelpers.output.cache
+/Users/thekidnamedkd/Desktop/PierresLogin.Solution/Bakery/obj/Debug/netcoreapp2.2/Bakery.RazorCoreGenerate.cache
+/Users/thekidnamedkd/Desktop/PierresLogin.Solution/Bakery/obj/Debug/netcoreapp2.2/Razor/Views/Shared/_Layout.cshtml.g.cs
+/Users/thekidnamedkd/Desktop/PierresLogin.Solution/Bakery/obj/Debug/netcoreapp2.2/Razor/Views/Treats/Create.cshtml.g.cs
+/Users/thekidnamedkd/Desktop/PierresLogin.Solution/Bakery/obj/Debug/netcoreapp2.2/Razor/Views/Treats/Delete.cshtml.g.cs
+/Users/thekidnamedkd/Desktop/PierresLogin.Solution/Bakery/obj/Debug/netcoreapp2.2/Razor/Views/Treats/Details.cshtml.g.cs
+/Users/thekidnamedkd/Desktop/PierresLogin.Solution/Bakery/obj/Debug/netcoreapp2.2/Razor/Views/Treats/Edit.cshtml.g.cs
+/Users/thekidnamedkd/Desktop/PierresLogin.Solution/Bakery/obj/Debug/netcoreapp2.2/Razor/Views/Treats/Index.cshtml.g.cs
+/Users/thekidnamedkd/Desktop/PierresLogin.Solution/Bakery/obj/Debug/netcoreapp2.2/Bakery.RazorTargetAssemblyInfo.cs
+/Users/thekidnamedkd/Desktop/PierresLogin.Solution/Bakery/obj/Debug/netcoreapp2.2/Bakery.Views.pdb
+/Users/thekidnamedkd/Desktop/PierresLogin.Solution/Bakery/obj/Debug/netcoreapp2.2/Bakery.csproj.CopyComplete
