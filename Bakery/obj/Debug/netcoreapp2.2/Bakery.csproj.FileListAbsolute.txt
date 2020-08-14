@@ -1,0 +1,6 @@
+/Users/thekidnamedkd/Desktop/PierresLogin.Solution/Bakery/obj/Debug/netcoreapp2.2/Bakery.csprojAssemblyReference.cache
+/Users/thekidnamedkd/Desktop/PierresLogin.Solution/Bakery/obj/Debug/netcoreapp2.2/Bakery.AssemblyInfoInputs.cache
+/Users/thekidnamedkd/Desktop/PierresLogin.Solution/Bakery/obj/Debug/netcoreapp2.2/Bakery.AssemblyInfo.cs
+/Users/thekidnamedkd/Desktop/PierresLogin.Solution/Bakery/obj/Debug/netcoreapp2.2/Bakery.csproj.CoreCompileInputs.cache
+/Users/thekidnamedkd/Desktop/PierresLogin.Solution/Bakery/obj/Debug/netcoreapp2.2/Bakery.RazorAssemblyInfo.cache
+/Users/thekidnamedkd/Desktop/PierresLogin.Solution/Bakery/obj/Debug/netcoreapp2.2/Bakery.RazorAssemblyInfo.cs
