@@ -10,6 +10,7 @@ namespace Bakery.Models
     }
     public int FlavorId { get; set; }
     public string FlavorName { get; set; }
+    public string FlavorDesc { get; set; }
     public virtual ICollection<FlavorTreat> Treats { get; set; }
   }
 }
