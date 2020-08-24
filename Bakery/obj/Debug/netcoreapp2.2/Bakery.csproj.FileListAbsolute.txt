@@ -34,3 +34,6 @@
 /Users/thekidnamedkd/Desktop/PierresLogin.Solution/Bakery/obj/Debug/netcoreapp2.2/Bakery.Views.pdb
 /Users/thekidnamedkd/Desktop/PierresLogin.Solution/Bakery/obj/Debug/netcoreapp2.2/Bakery.genruntimeconfig.cache
 /Users/thekidnamedkd/Desktop/PierresLogin.Solution/Bakery/obj/Debug/netcoreapp2.2/Bakery.csproj.CopyComplete
+/Users/thekidnamedkd/Desktop/PierresLogin.Solution/Bakery/obj/Debug/netcoreapp2.2/Razor/Views/Account/Index.cshtml.g.cs
+/Users/thekidnamedkd/Desktop/PierresLogin.Solution/Bakery/obj/Debug/netcoreapp2.2/Razor/Views/Account/Login.cshtml.g.cs
+/Users/thekidnamedkd/Desktop/PierresLogin.Solution/Bakery/obj/Debug/netcoreapp2.2/Razor/Views/Account/Register.cshtml.g.cs
