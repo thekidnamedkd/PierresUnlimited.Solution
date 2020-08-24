@@ -1,6 +1,6 @@
-# _DR. SNEUSS' FACTORY_
+# _PIERRE'S UNLIMITED_
 
-#### _C# Week 4 Independent Project_
+#### _C# Week 5 Independent Project_
 
 #### By _**KEVIN DAVIS**_
 
