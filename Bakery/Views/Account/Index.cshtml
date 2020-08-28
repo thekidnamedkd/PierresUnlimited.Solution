@@ -2,23 +2,24 @@
   Layout = "_Layout";
 }
 
-@using System.Security.Claims
-
-<h1>You have logged in successfully!</h1>
-<hr>
 @if (User.Identity.IsAuthenticated)
 {
-  <h3>Hello @User.Identity.Name!</h3>
+  <h1>HELLO @User.Identity.Name!</h1>
+  <hr />
   @using (Html.BeginForm("LogOff", "Account"))
   {
-    <h5>@Html.ActionLink("See all Flavors", "Index", "Flavors")</h5>
-    <h5>@Html.ActionLink("See all Treats", "Index", "Treats")</h5>
-    <h5>@Html.ActionLink("Home", "Index", "Home")</h5>
-    <input type="submit" value="Log out" class="btn btn-warning">
+    <p>@Html.ActionLink("See all Flavors", "Index", "Flavors")</p>
+    <p>@Html.ActionLink("See all Treats", "Index", "Treats")</p>
+    <p>@Html.ActionLink("Home", "Index", "Home")</p>
+    <hr />
+    <input type="submit" value="Log out" class="btn btn-success">
   }
 }
 else 
 {
-  <h5>@Html.ActionLink("Register", "Register")</h5>
-  <h5>@Html.ActionLink("Log in", "Login")</h5>
+  <h1>REGISTER/LOGIN</h1>
+  <hr />
+  <h2>@Html.ActionLink("Need to create an account?", "Register", "Account")</h2>
+  <h2>@Html.ActionLink("Log in", "Login")</h2>
+  <h2>@Html.ActionLink("Return home", "Index", "Home")</h2>
 }

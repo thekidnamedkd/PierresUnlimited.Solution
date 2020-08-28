@@ -17,10 +17,10 @@ _An MVC application in C# for Pierre's seeming endless takeover of the world pas
 | Program will create a join table for FlavorTreat. | input: | output:  | [X] |
 | Program will create a controller these two classes. | input: | output:  | [X] |
 | Program will create a contain CRUD routes for these two class controllers. | input: | output:  | [X] |
-| Program will create a contain corresponding CRUD views for the two classes so that users can interact with the database. | input: | output:  | [ ] |
-| Program will display many-to-many functionality with usable data in either View set. | input: | output:  | [ ] |
-| Program will create a User class for login process. | input: | output:  | [ ] |
-| Program will create a Account controller and corresponding Views. | input: | output:  | [ ] |
+| Program will create a contain corresponding CRUD views for the two classes so that users can interact with the database. | input: | output:  | [X] |
+| Program will display many-to-many functionality with usable data in either View set. | input: | output:  | [X] |
+| Program will create a User class for login process. | input: | output:  | [X] |
+| Program will create a Account controller and corresponding Views. | input: | output:  | [X] |
 
 ## Program Setup/Installation Requirements
 * _First make sure you have the .NET Core installed for your operating system. If you are unsure go here https://dotnet.microsoft.com/download/dotnet-core/2.2. Find the right version for you and install._

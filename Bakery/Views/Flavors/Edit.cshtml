@@ -8,13 +8,13 @@
 <hr />
 @using (Html.BeginForm())
 {
+    @Html.HiddenFor(model => model.FlavorId)
     <label>Name: </label>
-    @Html.TextBoxFor(model => model.FlavorName, new {type="text", required="required", @class="form-control"})
+    @Html.TextBoxFor(model => model.FlavorName, new {type="text", @class="form-control"})
     <br>
     <label>Description: </label>
-    @Html.TextBoxFor(model => model.FlavorName, new {type="text", required="required", @class="form-control"})
+    @Html.TextBoxFor(model => model.FlavorDesc, new {type="text", @class="form-control"})
     <br>
-    <input type="submit" value="Save">
     <input type="submit" value="Save" class="btn btn-warning">
 }
 <hr />
