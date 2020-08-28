@@ -1912,8 +1912,18 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "/Users/thekidnamedkd/Desktop/PierresLogin.Solution/Bakery/Views/Flavors/AddTreat.cshtml",
+      "TargetPath": "Views\\Flavors\\AddTreat.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/Users/thekidnamedkd/Desktop/PierresLogin.Solution/Bakery/Views/Flavors/Delete.cshtml",
       "TargetPath": "Views\\Flavors\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/thekidnamedkd/Desktop/PierresLogin.Solution/Bakery/Views/Treats/AddFlavor.cshtml",
+      "TargetPath": "Views\\Treats\\AddFlavor.cshtml",
       "FileKind": "mvc"
     },
     {
