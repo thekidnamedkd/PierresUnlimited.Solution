@@ -23,12 +23,12 @@ namespace Bakery.Controllers
       List<Flavor> model = _db.Flavors.ToList();
       return View(model);
     }
-
+    [Authorize]
     public ActionResult Create()
     {
       return View();
     }
-    [Authorize]
+    
     [HttpPost]
     public ActionResult Create(Flavor flavor)
     {
