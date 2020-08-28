@@ -16,4 +16,6 @@
     @Html.PasswordFor(m => m.Password, new {@class="form-control"})
   </div>
   <input type="submit" value="Log in" class="btn btn-outline-dark"> 
+  <p>@Html.ActionLink("Need to create an account?", "Register", "Account")</p>
+  <p>@Html.ActionLink("Return home", "Index", "Home")</p>
 }

@@ -20,4 +20,6 @@
     @Html.PasswordFor(user => user.ConfirmPassword, new {@class="form-control"})
   </div>
   <input type="submit" value="Register">
+  <p>@Html.ActionLink("Already have an account?", "Login", "Account")</p>
+  <p>@Html.ActionLink("Return home", "Index", "Home")</p>
 }

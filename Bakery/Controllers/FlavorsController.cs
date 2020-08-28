@@ -51,7 +51,7 @@ namespace Bakery.Controllers
       var thisFlavor = _db.Flavors.FirstOrDefault(flavor => flavor.FlavorId == id);
       return View(thisFlavor);
     }
-    [Authorize]
+
     [HttpPost]
     public ActionResult Edit(Flavor flavor)
     {
