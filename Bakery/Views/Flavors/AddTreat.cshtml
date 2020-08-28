@@ -4,13 +4,15 @@
 
 @model Bakery.Models.Flavor
 
-<h2>ADD FLAVOR TO TREAT</h2>
+<h2>ADD TREAT TO FLAVOR</h2>
 <hr />
 @using (Html.BeginForm())
 {
   @Html.HiddenFor(model => model.FlavorId)
   <label>Treat: </label>
-  @Html.DropDownList("TreatId")
+  <div class="form-group">
+  @Html.DropDownList("TreatId", null, new { @class="form-control" })
+  </div>
   <br>
   <br>
   <input type="submit" value="Save" class="btn btn-success">
