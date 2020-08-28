@@ -18,6 +18,7 @@
 /Users/thekidnamedkd/Desktop/PierresLogin.Solution/Bakery/obj/Debug/netcoreapp2.2/Razor/Views/Account/Index.cshtml.g.cs
 /Users/thekidnamedkd/Desktop/PierresLogin.Solution/Bakery/obj/Debug/netcoreapp2.2/Razor/Views/Account/Login.cshtml.g.cs
 /Users/thekidnamedkd/Desktop/PierresLogin.Solution/Bakery/obj/Debug/netcoreapp2.2/Razor/Views/Account/Register.cshtml.g.cs
+/Users/thekidnamedkd/Desktop/PierresLogin.Solution/Bakery/obj/Debug/netcoreapp2.2/Razor/Views/Flavors/AddTreat.cshtml.g.cs
 /Users/thekidnamedkd/Desktop/PierresLogin.Solution/Bakery/obj/Debug/netcoreapp2.2/Razor/Views/Flavors/Create.cshtml.g.cs
 /Users/thekidnamedkd/Desktop/PierresLogin.Solution/Bakery/obj/Debug/netcoreapp2.2/Razor/Views/Flavors/Delete.cshtml.g.cs
 /Users/thekidnamedkd/Desktop/PierresLogin.Solution/Bakery/obj/Debug/netcoreapp2.2/Razor/Views/Flavors/Details.cshtml.g.cs
@@ -25,6 +26,7 @@
 /Users/thekidnamedkd/Desktop/PierresLogin.Solution/Bakery/obj/Debug/netcoreapp2.2/Razor/Views/Flavors/Index.cshtml.g.cs
 /Users/thekidnamedkd/Desktop/PierresLogin.Solution/Bakery/obj/Debug/netcoreapp2.2/Razor/Views/Home/Index.cshtml.g.cs
 /Users/thekidnamedkd/Desktop/PierresLogin.Solution/Bakery/obj/Debug/netcoreapp2.2/Razor/Views/Shared/_Layout.cshtml.g.cs
+/Users/thekidnamedkd/Desktop/PierresLogin.Solution/Bakery/obj/Debug/netcoreapp2.2/Razor/Views/Treats/AddFlavor.cshtml.g.cs
 /Users/thekidnamedkd/Desktop/PierresLogin.Solution/Bakery/obj/Debug/netcoreapp2.2/Razor/Views/Treats/Create.cshtml.g.cs
 /Users/thekidnamedkd/Desktop/PierresLogin.Solution/Bakery/obj/Debug/netcoreapp2.2/Razor/Views/Treats/Delete.cshtml.g.cs
 /Users/thekidnamedkd/Desktop/PierresLogin.Solution/Bakery/obj/Debug/netcoreapp2.2/Razor/Views/Treats/Details.cshtml.g.cs

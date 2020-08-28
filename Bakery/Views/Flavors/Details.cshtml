@@ -8,7 +8,27 @@
 <hr />
 <h4><strong>Name: </strong> @Html.DisplayFor(model => model.FlavorName)</h4>
 <h4><strong>Description: </strong> @Html.DisplayFor(model => model.FlavorDesc)</h4>
+<h4><strong>Treats: </strong>
+<br>
+<br>
+@if(@Model.Treats.Count == 0)
+{
+  <ul>
+  <li>No designated treats yet.</li>
+  </ul>
+}
+else
+{
+  <ul>
+  @foreach(var join in Model.Treats)
+  {
+    <li>@Html.ActionLink($"{join.Treat.TreatName}", "Details", "Treats", new { id = join.TreatId})</li>
+  }
+  </ul>
+}
+</h4>
 <hr />
+<p>@Html.ActionLink("Designate (new) treats for this flavor", "AddTreat", new { id = Model.FlavorId })</p>
 <p>@Html.ActionLink("Edit this flavor", "Edit", new { id = Model.FlavorId })</p>
 <p>@Html.ActionLink("Remove this flavor", "Delete", new { id = Model.FlavorId })</p>
 <p>@Html.ActionLink("Return to all flavors", "Index")</p>

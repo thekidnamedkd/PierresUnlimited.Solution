@@ -74,5 +74,31 @@ namespace Bakery.Controllers
       _db.SaveChanges();
       return RedirectToAction("Index");
     }
+    [Authorize]
+    public ActionResult AddTreat(int id)
+    {
+      var thisFlavor = _db.Flavors.FirstOrDefault(flavor => flavor.FlavorId == id);
+      ViewBag.TreatId = new SelectList(_db.Treats, "TreatId", "TreatName");
+      return View(thisFlavor);
+    }
+
+    [HttpPost]
+    public ActionResult AddTreat(Flavor flavor, int TreatId)
+    {
+      IQueryable<FlavorTreat> treatFlavors = _db.FlavorTreats.Where(entry => entry.FlavorId == flavor.FlavorId);
+      foreach (FlavorTreat entry in treatFlavors)
+      {
+        if (entry.TreatId == TreatId)
+        {
+          return RedirectToAction("Details", new { id = flavor.FlavorId });
+        }
+      }
+      if (TreatId != 0)
+      {
+        _db.FlavorTreats.Add(new FlavorTreat() { TreatId = TreatId, FlavorId = flavor.FlavorId });
+      }
+      _db.SaveChanges();
+      return RedirectToAction("Details", new { id = flavor.FlavorId });
+    }
   }
 }
