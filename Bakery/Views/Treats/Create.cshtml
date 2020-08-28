@@ -17,7 +17,7 @@
     <label>Quantity: </label>
     @Html.TextBoxFor(model => model.TreatQty, new {type="number", required="required", @class="form-control"})
     <br>
-    <input type="submit" value="Save">
+    <input type="submit" value="Save" class="btn btn-success">
 }
 <hr />
 <p>@Html.ActionLink("Return to all treats", "Index")</p>
