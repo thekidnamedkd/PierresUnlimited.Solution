@@ -24,9 +24,9 @@ _An MVC application in C# for Pierre's seeming endless takeover of the world pas
 
 ## Program Setup/Installation Requirements
 * _First make sure you have the .NET Core installed for your operating system. If you are unsure go here https://dotnet.microsoft.com/download/dotnet-core/2.2. Find the right version for you and install._
-* _Visit the following link: https://github.com/thekidnamedkd/PierresLogin.Solution_
+* _Visit the following link: https://github.com/thekidnamedkd/PierresUnlimited.Solution/
 * _Clone the repository to your desired directory._
-* _Use the terminal to navigate into to PierresLogin.Solution_
+* _Use the terminal to navigate into to PierresUnlimited.Solution_
 * _Once inside the folder, navigate further to the Bakery folder via the terminal._
 * _There you can use the command ```$dotnet restore``` to add the necessary system files to the application._
 * _Then you can use the command ```$dotnet ef database update``` to create a MySQL database for the pplication._
